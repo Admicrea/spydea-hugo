@@ -1,0 +1,83 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "ホーム"
+url = ""
+weight = 1
+
+[[main]]
+name = "Admicreaとは"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "ブログ"
+url = "blog/"
+weight = 3
+
+[[main]]
+name = "料金プラン"
+url = "pricing/"
+weight = 4
+
+[[main]]
+weight = 5
+name = "その他"
+hasChildren = true
+
+[[main]]
+parent = "その他"
+name = "ブログエレメント"
+url = "elements/"
+weight = 1
+
+[[main]]
+parent = "その他"
+name = "Admicrea募集"
+url = "career/"
+
+[[main]]
+parent = "その他"
+name = "メンバー"
+url = "authors/"
+
+[[main]]
+parent = "その他"
+name = "お問い合わせ"
+url = "contact/"
+
+[[main]]
+parent = "その他"
+name = "利用規約"
+url = "terms-conditions/"
+
+[[footer_01]]
+name = "Admicreaとは"
+url = "about/"
+weight = 1
+
+[[footer_01]]
+name = "お問い合わせ"
+url = "contact/"
+weight = 2
+
+[[footer_01]]
+name = "料金プラン"
+url = "pricing/"
+weight = 3
+
+[[footer_02]]
+name = "ブログ"
+url = "blog/"
+weight = 1
+
+[[footer_02]]
+name = "開発"
+url = "career/"
+weight = 2
+
+[[footer_02]]
+name = "利用規約"
+url = "terms-conditions/"
+weight = 3

@@ -1,0 +1,149 @@
+########################################################################
+#チェック済み：2023/07/23
+#################### default parameters ################################
+# OK : favicon
+favicon = "images/favicon.png"
+# OK : logo
+logo = "images/logo-dark.png"
+logo_footer = "images/logo-light.png"
+# OK : use `px` or `x` with logo_width, example: "100px". Note: logo_width is not work with .svg file
+logo_width = "158px"
+logo_height = "37px"
+# OK : if logo_webp set false, will not generate WEBP version of logo | default is true
+logo_webp = true
+# OK : logo text will only show when logo is missing.
+logo_text = "admicrea"
+# OK : navbar fixed to top
+navbar_fixed = true
+# TODO : Main Sections
+mainSections = ["blog"]
+# OK : contact form action
+contact_form_action = "https://airform.io/admicrea.cloud@gmail.com" # contact form works with [https://airform.io/] or [https://formspree.io]
+# OK : google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "G-5LK8K02DKX" # example: G-XXXXXXXXXX
+# TODO
+google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
+# TODO : custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
+custom_script = ""
+# OK : copyright
+theme_copyright = true
+copyright = "Copyright by Admicrea"
+
+# OK : Preloader
+[preloader]
+enable = true
+preloader = "images/logo-dark.png" # use jpg, png, svg or gif format.
+
+# OK : Navigation button
+[navigation_button]
+enable = false
+label = "Integration"
+link = "integration/"
+
+[navigation_button_outline]
+enable = true
+label = "Admicreaを始める"
+link = "contact/"
+
+# OK : contact info
+[contact_info]
+mobile = ""
+email = "admicrea.cloud@gmail.com"
+
+# OK : Subscription
+[announcement]
+enable = false
+content = "Pellen tesque in ipsum id orci porta dapibus. Sed port titor lectus nibh Vivamus [Learn More](#)"
+
+# OK : Subscription
+[quote_form]
+enable = false
+submit_button_label = "Get A Quote"
+placeholder = ""
+action = "#"                        # contact form works with [https://airform.io/] , [https://formspree.io]
+
+# OK : Crisp Chat
+[crisp_chat]
+enable = false
+crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code with yours
+# Check this video tutorial to get your crisp website ID - https://www.youtube.com/watch?v=nW5UX6iVdFc
+
+# OK : Valine Comment
+[valine_comment]
+enable = false
+appId = ""     # replace this code with yours [ex: QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI]
+appKey = ""    # replace this code with yours [ex: WBmoGyJtbqUswvfLh6L8iEBr]
+
+# TODO : language = "change language translation from `i18n`"
+avatar = ""      # see : https://valine.js.org/en/avatar.html
+pageSize = 10    # will show 10 comments per page
+visitor = true
+highlight = true # Code highlighting
+recordIP = true  # Record reviewer IP.
+enableQQ = false # https://valine.js.org/en/configuration.html#enableQQ
+# serverURLs = "" # https://leancloud.your_website.com
+# Check Valine's official documentation here - https://valine.js.org/en/configuration.html
+
+# OK : seo meta data for OpenGraph / Twitter Card
+[metadata]
+keywords = ["Admicrea", "脚本", "小説", "台本", "物語設計", "エンターテイメント", "映画"]
+description = "脚本・小説・台本・・・物語を設計し最高のエンターテイメントを生み出そう、Admicreaは物語をエンジニアリングする物語設計・執筆アプリです。"
+author = "Admicrea"
+image = "images/favicon.png"                                       # this image will be used as fallback if a page has no image of its own
+
+# OK : matomo tracking: see https://matomo.org/
+[matomo]
+enable = false
+url = ""       # your matomo url
+id = ""        # your matomo id
+
+# OK : baidu analytics: see https://tongji.baidu.com/
+[baidu]
+enable = false
+analytics_id = "" # Your ID
+
+# OK : plausible analytics: see https://plausible.io/
+[plausible]
+enable = false
+domain = ""    # yourdomain.com
+
+# OK : counter analytics: see https://counter.dev/setup.html
+[counter]
+enable = false
+username = ""  # your username
+
+# OK : site verifications
+[site_verification]
+google = ""   # Your verification code
+bing = ""     # Your verification code
+baidu = ""    # Your verification code
+facebook = "" # Your verification code
+mastodon = "" # Your verification code
+
+# OK : cookies
+[cookies]
+enable = false
+expire_days = 60
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.facebook.com/groups/2008018936104755"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://twitter.com/admicrea"
+
+[[social]]
+title = "mastodon"
+icon = "fab fa-mastodon" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
