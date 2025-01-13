@@ -1,7 +1,7 @@
 ---
 banner:
-  title: "物語をエンジニアリングする"
-  description: "Admicreaを使用すれば、物語をテキストエディタよりも便利に、視覚的にわかりやすく書き進めることができます。"
+  title: "物語をエンジニアリングする脚本・台本の設計ソフト"
+  description: "Admicreaを使うことで、物語・台本をテキストエディタよりも便利に、視覚的にわかりやすく設計・書くことができます。"
   images:
     main: "/images/banner/banner-image.jpg"
     left: "/images/banner/banner-image-part-1.jpg"
@@ -16,7 +16,6 @@ banner:
 
   facility:
     - "脚本"
-    - "小説"
     - "台本"
 
 brands:
@@ -37,7 +36,7 @@ feature_list:
   enable: true
   title: "Admicreaの機能"
   subtitle: "Features of Admicrea"
-  description: "物語をあらゆる角度から設計し、面白いを作り出す機能が揃っています。"
+  description: "物語・台本をあらゆる角度から設計し、面白いを作り出します。"
   list:
     - title: "データはクラウドに保存"
       icon: "fa-solid fa-cloud-arrow-up"
@@ -54,7 +53,10 @@ feature_list:
     - title: "ストーリーメモ機能"
       icon: "fa-solid fa-file-pen"
       description: "思いついたアイデアはメモ機能に書いて保存できます。忘れてしまう前に、書き留めておくことができます。"
-    - title: "AIキャラクター・物語生成※開発中"
+    - title: "AIキャラクター生成"
+      icon: "fa-solid fa-user-plus"
+      description: "キャラクターのイメージをAIで画像生成。でサポート。"
+    - title: "AIシーン生成"
       icon: "fa-solid fa-user-plus"
       description: "キャラクターのイメージ・セリフなどをAIでサポート。"
 

@@ -1,15 +1,29 @@
 ---
-title: Choose the Plan That’s Right for You
+title: 料金プラン
 layout: "pricing"
 
 pricing_plan:
-  title: "Try Spydea for free Now"
-  subtitle: "CHOOSE PLAN FOR YOU"
+  title: "制限つき無料プランで試してみる"
+  subtitle: "トライアル"
   description: "Lorem ipsum dolor sit amet, consectetur mag na dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. elementum id enim. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut"
   button:
     label: "Sign up For Free"
     link: "sign-up/"
   plans:
+    - title: "スタンダードプラン"
+      subtitle: ""
+      price_icon: "images/icons/award.svg"
+      price_tag: ""
+      price: "1900円"
+      price_type: "月"
+      description:
+        - "**Pellentesque** dapibus quam"
+        - "**Morbi convallis** a urna quis lacinia"
+        - "**Aliquam** vehicula laoreet ligula"
+        - "**Sed dapibus** vitae mauris id fringilla"
+      button:
+        label: "Start Free Trial"
+        link: "#?"
     - title: "Standard license"
       subtitle: "Traffic Corporate Sites"
       price_icon: "images/icons/award.svg"
@@ -40,18 +54,18 @@ pricing_plan:
         link: "#?"
 
 faq:
-  title: "Frequently Asked Questions"
+  title: "よくあるご質問"
   subtitle: "COMMON INQUIRIES"
-  description: "Donec rutrum congue leo eget malesuada. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Vestibulum ac diam sit amet quam vehicula elementum."
+  description: ""
   list:
+    - title: "お支払いはどのように行われますか？"
+      description: "オンラインの決済プラットフォーム「stripe」を通して、各種クレジットカード・GooglePayでお支払いいただけます。"
+    - title: "サブスクリプションの解約はすぐにできますか？"
+      description: "解約はいつでも可能です。キャンセル料などはありません。"
     - title: "How does the free trial work?"
-      description: "consectetur adipisicing elit. Commodi quaerat veritatis necessitatibus nemo ullam dolores aut veniam officiis asperiores, unde quo magni repudiandae impedit iusto voluptatum eos, aliquam, consectetur aliquid."
-    - title: "Do I need a creditcard to Sign up?"
-      description: "consectetur adipisicing elit. Commodi quaerat veritatis necessitatibus nemo ullam dolores aut veniam officiis asperiores, unde quo magni repudiandae impedit iusto voluptatum eos, aliquam, consectetur aliquid."
-    - title: "How does the free trial work?"
-      description: "consectetur adipisicing elit. Commodi quaerat veritatis necessitatibus nemo ullam dolores aut veniam officiis asperiores, unde quo magni repudiandae impedit iusto voluptatum eos, aliquam, consectetur aliquid."
-    - title: "Do I need a creditcard to Sign up?"
-      description: "consectetur adipisicing elit. Commodi quaerat veritatis necessitatibus nemo ullam dolores aut veniam officiis asperiores, unde quo magni repudiandae impedit iusto voluptatum eos, aliquam, consectetur aliquid."
-    - title: "How does the free trial work?"
-      description: "consectetur adipisicing elit. Commodi quaerat veritatis necessitatibus nemo ullam dolores aut veniam officiis asperiores, unde quo magni repudiandae impedit iusto voluptatum eos, aliquam, consectetur aliquid."
+      description: "個人情報の取り扱いはどうなっていますか？"
+    - title: "個人情報の取り扱いはどうなっていますか？"
+      description: "サービスの利用には、Googleアカウントのみで開始ができ、名前・メールアドレスなどアカウントに紐づく個人情報を第三者に提供することはありません。"
+    - title: "プランの変更はできますか？"
+      description: "いつでもプランを変更できます。"
 ---
